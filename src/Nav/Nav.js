@@ -7,7 +7,9 @@ export default function Nav() {
         <div className="nav-container">
             <nav>
                 <div className="nav-brand">
-                    <img className="nav-brand__img" src="./favicon.ico" />
+                    <NavLink to="#">
+                        <img className="nav-brand__img" src="./favicon.ico" />
+                    </NavLink>
                     <h1>Guan He</h1>
                 </div>
                 <ul>

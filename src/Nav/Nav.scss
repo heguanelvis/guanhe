@@ -1,6 +1,8 @@
 $bg-gray: #eee;
 $text-green: #8fbc8f;
 $text-blue: #4b609b;
+$text-orange: #f7943d;
+$text-black: #000;
 
 .nav-container {
     nav {
@@ -26,7 +28,12 @@ $text-blue: #4b609b;
             }
 
             h1 {    
-                color: #000;
+                color: $text-black;
+                text-shadow:
+                -1px -1px 0 $text-orange,
+                1px -1px 0 $text-orange,
+                -1px 1px 0 $text-orange,
+                1px 1px 0 $text-orange;
             }
             
         }
@@ -42,6 +49,15 @@ $text-blue: #4b609b;
                     text-decoration: none;
                     color: $text-blue;
                     font-weight: bold;
+                    
+                    &:hover, &:active, &:focus {
+                        color: $text-orange;
+                        text-shadow:
+                        -1px -1px 0 $text-black,
+                        1px -1px 0 $text-black,
+                        -1px 1px 0 $text-black,
+                        1px 1px 0 $text-black;
+                    }
                 }
             }
         }
