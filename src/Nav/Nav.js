@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "./Nav.scss";
 
 export default function Nav() {
     return (
-        <div className="container">
+        <div className="nav-container">
             <nav>
-                <h1 className="brand">Brand</h1>
+                <div className="nav-brand">
+                    <img className="nav-brand__img" src="./favicon.ico" />
+                    <h1>Guan He</h1>
+                </div>
                 <ul>
                     <li>
                         <NavLink to="#">About</NavLink>
