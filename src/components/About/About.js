@@ -137,28 +137,7 @@ export default function About() {
                 purus faucibus tortor condimentum, non tristique est blandit.
                 Donec laoreet dui ac massa vulputate, non varius risus varius.
                 Nunc ac neque in magna fringilla tempus eget eget enim. Sed quis
-                velit in dui sagittis finibus et et eros. Suspendisse lobortis
-                lacus et pharetra gravida. Curabitur sagittis, lectus in blandit
-                ornare, dui ex laoreet odio, a interdum odio orci id elit.
-                Aenean volutpat congue luctus. Vivamus efficitur tortor non
-                molestie finibus. Aliquam erat volutpat. Vivamus placerat, est
-                vitae aliquet sagittis, lectus turpis maximus dolor, sit amet
-                vulputate tortor arcu efficitur turpis. Morbi vitae lorem in
-                tortor varius imperdiet in a neque. Aliquam eu turpis nisl.
-                Integer vestibulum ullamcorper lacus, sed faucibus odio aliquam
-                id. Ut interdum vel libero in scelerisque. Aliquam fringilla et
-                turpis vitae volutpat. Suspendisse ullamcorper in leo nec
-                vehicula. Aenean tempus erat ipsum, sit amet tristique neque
-                venenatis a. Nulla tincidunt lectus eget luctus imperdiet.
-                Vestibulum id bibendum felis. Donec et felis porttitor, rutrum
-                dui et, rhoncus lorem. Proin placerat lacinia libero quis
-                pulvinar. Etiam porta id enim ut finibus. Phasellus eu aliquet
-                eros, sed porta nunc. Sed eleifend est suscipit nisl laoreet
-                eleifend. Morbi pretium sapien non pharetra fermentum. Curabitur
-                massa diam, suscipit at bibendum sed, finibus et libero. Nulla
-                viverra gravida venenatis. Nulla pharetra nunc non sodales
-                cursus. Sed id dolor et ante porta lobortis vel sit amet massa.
-                Phasellus sit amet eleifend lectus, id suscipit dolor.
+                velit in dui
             </p>
         </div>
     );

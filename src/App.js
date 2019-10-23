@@ -6,13 +6,11 @@ import About from "./components/About";
 function App() {
     return (
         <div className="App">
-            <div className="nav-container">
+            <div className="App-nav-container">
                 <Nav />
             </div>
             <div className="content-container">
-                <div>
-                    <About />
-                </div>
+                <About />
             </div>
         </div>
     );

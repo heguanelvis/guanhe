@@ -1,5 +1,64 @@
-.about-container {
-    .about-me__title {
-        text-align: center;
+$bg-gray: #eee;
+$text-blue: #4b609b;
+$text-orange: #f7943d;
+$text-black: #000;
+
+$break-mobile: 600px;
+$break-tablet-small: 767px;
+$break-tablet-large: 1023px;
+$break-laptop: 1200px;
+
+@media only screen and (max-width: $break-mobile) {
+    .about-container {
+        padding-left: 1.25rem;
+        padding-right: 1rem;
+
+        .about-me__title {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            text-align: justify;
+        }
+    }
+}
+
+@media only screen and (min-width: $break-mobile) {
+    .about-container {
+        padding-left: 1.3rem;
+        padding-right: 1rem;
+
+        .about-me__title {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            text-align: justify;
+        }
+    }
+}
+
+@media only screen and (min-width: $break-tablet-small) {
+    .about-container {
+        padding-left: 3.2rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: $break-tablet-large) {
+    .about-container {
+        padding-left: 4.7rem;
+        padding-right: 3.8rem;
+    }
+}
+
+@media only screen and (min-width: $break-laptop) {
+    .about-container {
+        padding-left: 8rem;
+        padding-right: 7rem;
     }
 }
