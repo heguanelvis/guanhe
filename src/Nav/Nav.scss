@@ -1,5 +1,4 @@
 $bg-gray: #eee;
-$text-green: #8fbc8f;
 $text-blue: #4b609b;
 $text-orange: #f7943d;
 $text-black: #000;
@@ -14,6 +13,9 @@ $break-laptop: 1200px;
         width: 29vw;
         height: 100vh;
         background: $bg-gray;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
 
         ul {
             margin: 0;
@@ -94,6 +96,9 @@ $break-laptop: 1200px;
         width: 24vw;
         height: 100vh;
         background: $bg-gray;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
 
         ul {
             margin: 0;
@@ -187,8 +192,6 @@ $break-laptop: 1200px;
 
     @media only screen and (min-width: $break-tablet-large) {
         nav {
-            width: 20vw;
-
             ul {
                 li {
                     &:nth-of-type(1) {

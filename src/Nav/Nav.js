@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 
 export default function Nav() {
@@ -8,24 +7,24 @@ export default function Nav() {
             <ul>
                 <li>
                     {" "}
-                    <NavLink className="nav-brand__link" to="#">
+                    <a className="nav-brand__link" href="#about">
                         <img className="nav-brand__img" src="./favicon.ico" />
-                    </NavLink>
+                    </a>
                 </li>
                 <li>
-                    <NavLink to="#">Guan He</NavLink>
+                    <a href="#about">Guan He</a>
                 </li>
                 <li>
-                    <NavLink to="#">About</NavLink>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <NavLink to="#">Portfolio</NavLink>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
-                    <NavLink to="#">Resume</NavLink>
+                    <a href="#">Resume</a>
                 </li>
                 <li>
-                    <NavLink to="#">Contact</NavLink>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </nav>

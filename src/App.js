@@ -1,14 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import Nav from "./Nav/Nav";
+import About from "./About/About";
 
 function App() {
     return (
         <div className="App">
-            <Router>
+            <div class="nav-container">
                 <Nav />
-            </Router>
+            </div>
+            <div class="content-container">
+                <About />
+            </div>
         </div>
     );
 }
