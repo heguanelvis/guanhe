@@ -1,9 +1,13 @@
 import React from "react";
+import "./About.scss";
 
 export default function About() {
     return (
-        <div>
-            <h1 id="about">About Me</h1>
+        <div className="about-container">
+            <h1 id="about" className="about-me__title">
+                INTRODUCTION
+            </h1>
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 interdum varius est eget porttitor. Suspendisse consectetur

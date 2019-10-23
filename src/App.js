@@ -1,16 +1,18 @@
 import React from "react";
 import "./App.scss";
-import Nav from "./Nav/Nav";
-import About from "./About/About";
+import Nav from "./components/Nav";
+import About from "./components/About";
 
 function App() {
     return (
         <div className="App">
-            <div class="nav-container">
+            <div className="nav-container">
                 <Nav />
             </div>
-            <div class="content-container">
-                <About />
+            <div className="content-container">
+                <div>
+                    <About />
+                </div>
             </div>
         </div>
     );

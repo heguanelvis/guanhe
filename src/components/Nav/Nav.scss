@@ -1,5 +1,4 @@
-$bg-gray: #eee;
-$text-blue: #4b609b;
+$text-white: #fff;
 $text-orange: #f7943d;
 $text-black: #000;
 
@@ -12,7 +11,8 @@ $break-laptop: 1200px;
     nav {
         width: 29vw;
         height: 100vh;
-        background: $bg-gray;
+        background: url("./navbg.png");
+        background-repeat: repeat;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -23,7 +23,7 @@ $break-laptop: 1200px;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(15, 1fr);
             justify-items: center;
-            height: 100%;
+            min-height: 100%;
             width: 100%;
             padding-left: 0;
 
@@ -33,7 +33,7 @@ $break-laptop: 1200px;
 
                 a {
                     text-decoration: none;
-                    color: $text-blue;
+                    color: $text-white;
                     font-size: 0.8rem;
                     font-weight: bold;
 
@@ -95,7 +95,8 @@ $break-laptop: 1200px;
     nav {
         width: 24vw;
         height: 100vh;
-        background: $bg-gray;
+        background: url("./navbg.png");
+        background-repeat: repeat;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -116,7 +117,7 @@ $break-laptop: 1200px;
 
                 a {
                     text-decoration: none;
-                    color: $text-blue;
+                    color: $text-white;
                     font-size: 1rem;
                     font-weight: bold;
 

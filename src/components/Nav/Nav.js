@@ -8,11 +8,15 @@ export default function Nav() {
                 <li>
                     {" "}
                     <a className="nav-brand__link" href="#about">
-                        <img className="nav-brand__img" src="./favicon.ico" />
+                        <img
+                            className="nav-brand__img"
+                            src="./favicon.ico"
+                            alt="favicon.ico"
+                        />
                     </a>
                 </li>
                 <li>
-                    <a href="#about">Guan He</a>
+                    <a href="#about">GUAN HE</a>
                 </li>
                 <li>
                     <a href="#about">About</a>

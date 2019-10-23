@@ -13,6 +13,16 @@ $break-laptop: 1200px;
     flex-direction: row;
 }
 
+.content-container {
+    display: grid;
+    grid-template-columns: 1rem auto 1rem;
+
+    div {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
 @media only screen and (max-width: $break-mobile) {
     .content-container {
         width: 71vw;
