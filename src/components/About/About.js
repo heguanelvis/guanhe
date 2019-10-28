@@ -43,8 +43,8 @@ export default function About() {
             <p>
                 In my spare time, I like cooking, singing, swimming, playing
                 video games, taking care of my plants and spending time with my
-                cat. I enjoy talking with all kinds of people and look forward
-                to making more friends in the Detroit area.
+                cat. I enjoy meeting all kinds of people and look forward to
+                making more friends in the Detroit area.
             </p>
 
             <div className="about-img-wrapper">
