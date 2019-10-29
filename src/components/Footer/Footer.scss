@@ -1,0 +1,58 @@
+$color1: white;
+$color2: black;
+$color3: #ef820d;
+$font1: "Merriweather", serif;
+
+$mobile: 750px;
+$tablet-large: 1100px;
+
+@media only screen and (max-width: $mobile) {
+    footer {
+        width: 100%;
+        font-family: $font1;
+
+        p {
+            margin: 0;
+            color: $color1;
+        }
+
+        a {
+            color: $color1;
+            &:hover,
+            &:active,
+            &:focus {
+                color: $color3;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $mobile) {
+    footer {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: $tablet-large) {
+    footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        font-family: $font1;
+
+        p {
+            margin: 0;
+            color: $color1;
+        }
+
+        a {
+            color: $color1;
+            &:hover,
+            &:active,
+            &:focus {
+                color: $color3;
+            }
+        }
+    }
+}
