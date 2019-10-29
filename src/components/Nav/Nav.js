@@ -1,36 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 
 export default function Nav() {
     return (
-        <nav className="nav-container">
+        <div className="nav">
             <ul>
                 <li>
-                    {" "}
-                    <a className="nav-brand__link" href="#about">
-                        <img
-                            className="nav-brand__img"
-                            src="./favicon.ico"
-                            alt="favicon.ico"
-                        />
-                    </a>
+                    <NavLink to="/">
+                        <i className="fas fa-ghost"></i>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#about">GUAN HE</a>
+                    <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <NavLink to="/portfolio">Portfolio</NavLink>
                 </li>
             </ul>
-        </nav>
+        </div>
     );
 }
