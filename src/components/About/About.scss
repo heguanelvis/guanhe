@@ -4,7 +4,7 @@ $color3: #ef820d;
 $color4: #00b4ab;
 
 $font1: "Merriweather", serif;
-$font2: "Long Cang", "Merriweather", "Fredericka the Great", serif;
+$font2: "Fredoka One", cursive;
 
 $mobile: 750px;
 $larger-tablet: 1024px;
@@ -19,7 +19,6 @@ $larger-tablet: 1024px;
         h1 {
             font-size: 2rem;
             font-family: $font2;
-            font-weight: bold;
         }
 
         p {
@@ -145,7 +144,6 @@ $larger-tablet: 1024px;
     }
 }
 
-
 @media only screen and (min-width: $larger-tablet) {
     #about {
         padding-top: 140px;
@@ -174,5 +172,3 @@ $larger-tablet: 1024px;
     color: $color4;
     font-weight: bolder;
 }
-
-
