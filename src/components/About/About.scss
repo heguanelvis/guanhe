@@ -1,14 +1,178 @@
-#about {
-    padding-top: 150px;
-    padding-left: 220px;
-    padding-right: 220px;
-    background: white;
-    height: 100%;
+$color1: white;
+$color2: black;
+$color3: #ef820d;
+$color4: #00b4ab;
 
-    p {
-        font-size: 1.5rem;
-        color: black;
-        text-align: justify;
-        margin: 0;
+$font1: "Merriweather", serif;
+$font2: "Long Cang", cursive;
+
+$mobile: 750px;
+$larger-tablet: 1024px;
+
+@media only screen and (max-width: $mobile) {
+    #about {
+        font-family: $font1;
+        padding-top: 110px;
+        background: $color1;
+        height: 100%;
+
+        h1 {
+            font-size: 2rem;
+            font-family: $font2;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0;
+        }
+    }
+
+    .about-small-welcome {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px 20px;
+        border-radius: 2%;
+
+        h1 {
+            color: $color1;
+        }
+
+        p {
+            color: $color1;
+        }
+    }
+
+    .about-my-background {
+        padding: 10px 0;
+
+        h1 {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+    }
+
+    .about-tech-experience {
+        padding: 20px 10px;
+        background: rgba(0, 0, 0, 0.8);
+        flex-direction: column-reverse !important;
+        border-radius: 2%;
+
+        h1 {
+            color: $color1;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: $color1;
+        }
+    }
+
+    .about-my-interest {
+        padding: 20px 10px;
+
+        h1 {
+            text-align: left;
+            margin-bottom: 25px;
+        }
     }
 }
+
+@media only screen and (min-width: $mobile) {
+    #about {
+        font-family: $font1;
+        padding-top: 130px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background: $color1;
+        height: 100%;
+
+        h1 {
+            font-size: 2.2rem;
+            font-family: $font2;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0;
+        }
+    }
+
+    .about-small-welcome {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 50px;
+        border-radius: 2%;
+
+        h1 {
+            color: $color1;
+        }
+
+        p {
+            color: $color1;
+        }
+    }
+
+    .about-my-background {
+        padding: 40px 0;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .about-tech-experience {
+        padding: 40px;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 2%;
+
+        h1 {
+            color: $color1;
+            text-align: center;
+        }
+
+        p {
+            color: $color1;
+        }
+    }
+
+    .about-my-interest {
+        padding: 40px 20px;
+
+        h1 {
+            text-align: center;
+        }
+    }
+}
+
+
+@media only screen and (min-width: $larger-tablet) {
+    #about {
+        padding-top: 140px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .about-small-welcome {
+        padding: 70px;
+    }
+
+    .about-my-background {
+        padding: 40px 30px;
+    }
+
+    .about-tech-experience {
+        padding: 70px 60px;
+    }
+
+    .about-my-interest {
+        padding: 50px;
+    }
+}
+
+#about strong {
+    color: $color4;
+    font-weight: bolder;
+}
+
+

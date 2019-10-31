@@ -6,7 +6,7 @@ import "bootstrap-css-only";
 export default function Nav() {
     return (
         <nav className="container-fluid">
-            <ul className="row d-flex align-items-center">
+            <ul className="container-fluid d-flex align-items-center">
                 <div className="col-3 col-md-2 col-lg-2 text-center text-left-md">
                     <li>
                         <NavLink className="nav-brand" to="/">

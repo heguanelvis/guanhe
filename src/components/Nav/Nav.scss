@@ -5,7 +5,6 @@ $color4: #00b4ab;
 $font1: "Merriweather", serif;
 
 $mobile: 600px;
-
 nav {
     font-family: $font1;
     position: fixed;
@@ -26,11 +25,7 @@ nav {
 
             .nav-link-wrapper {
                 padding: 0;
-                border-right: 3px double $color2;
-
-                &:last-of-type {
-                    border: none;
-                }
+                margin-right: 5px;
             }
 
             li {
@@ -83,10 +78,7 @@ nav {
 
             .nav-link-wrapper {
                 padding: 0;
-                border-right: 3px double $color2;
-                &:last-of-type {
-                    border: none;
-                }
+                margin-left: 10px;
             }
 
             li {
