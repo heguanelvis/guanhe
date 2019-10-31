@@ -8,7 +8,9 @@ export default function About() {
         <div id="about" className="container-fluid">
             {" "}
             <div className="about-small-welcome">
-                <h1>你好(nǐ hǎo) 😎</h1>
+                <h1>
+                    你好(nǐ hǎo) <span>😎</span>
+                </h1>
                 <br />
                 <p>
                     “你好” means "Hello" in Chinese. Welcome to my website! My
@@ -21,7 +23,9 @@ export default function About() {
             <br />
             <div className="about-my-background container d-flex-wrap d-md-flex align-items-center justify-content-between">
                 <div className="col-12 col-md-3">
-                    <h1>📚 My Background</h1>
+                    <h1>
+                        <span>📚</span> My Background
+                    </h1>
                 </div>
                 <div className="col-12 col-md-8">
                     <p>
@@ -62,11 +66,15 @@ export default function About() {
                     love collaborating with my team members and I am always
                     willing to learn more and take on new challenges.{" "}
                 </p>
-                <h1 className="col-12 col-md-4">🤖 Technical Experience</h1>
+                <h1 className="col-12 col-md-4">
+                    <span>🤖</span> Technical Experience
+                </h1>
             </div>
             <br />
             <div className="about-my-interest container d-flex-wrap d-md-flex align-items-center justify-content-between">
-                <h1 className="col-12 col-md-3">👨‍🍳 My Interest</h1>
+                <h1 className="col-12 col-md-3">
+                    <span>👨‍🍳</span> My Interest
+                </h1>
                 <p className="col-12 col-md-8">
                     In my spare time, I really enjoy trying out various cuisines
                     and cooking all kinds of food. I also like going to karaoke
