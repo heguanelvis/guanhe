@@ -4,13 +4,16 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.2",
+    "array-move": "^2.2.0",
     "bootstrap-css-only": "^4.3.1",
     "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.10.2",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-sortable-hoc": "^1.10.1",
     "react-text-loop": "^2.1.1"
   },
   "scripts": {

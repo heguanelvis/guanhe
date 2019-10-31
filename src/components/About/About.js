@@ -1,7 +1,7 @@
 import React from "react";
 import "animate.css/animate.min.css";
-import ScrollAnimation from "react-animate-on-scroll";
 import "./About.scss";
+import Photos from "../Photos";
 
 export default function About() {
     return (
@@ -77,6 +77,7 @@ export default function About() {
                     friends in the Detroit area.
                 </p>
             </div>
+            <Photos />
         </div>
     );
 }
