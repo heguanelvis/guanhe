@@ -42,6 +42,9 @@ $tablet-large: 1100px;
         a {
             font-size: 3rem;
             color: $color1;
+            i {
+                cursor: pointer;
+            }
             &:hover,
             &:active,
             &:focus {

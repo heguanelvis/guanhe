@@ -78,14 +78,15 @@ export default function About() {
                 <p className="col-12 col-md-8">
                     In my spare time, I really enjoy trying out various cuisines
                     and cooking all kinds of food. I also like going to karaoke
-                    bars, swimming, playing video games, taking care of my
-                    plants and spending time with my kitty. In addition, I love
-                    attending hackathons and tech conferences to meet
-                    interesting people and I am looking forward to making more
-                    friends in the Detroit area.
+                    bars, swimming, travelling to scenic spots, playing video
+                    games, taking care of my plants and spending time with my
+                    kitty. In addition, I love attending hackathons and tech
+                    conferences to meet interesting people and I am looking
+                    forward to making more friends in the Detroit area.
                 </p>
             </div>
             <Photos />
+            <br />
         </div>
     );
 }

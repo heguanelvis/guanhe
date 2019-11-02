@@ -1,0 +1,8 @@
+.photo-style {
+    border-radius: 10%;
+    cursor: pointer;
+    &:hover {
+        -webkit-filter: contrast(130%);/* Safari 6.0 - 9.0 */
+        filter: contrast(130%);
+    }
+}
