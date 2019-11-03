@@ -147,8 +147,8 @@ $larger-tablet: 1024px;
 @media only screen and (min-width: $larger-tablet) {
     #about {
         padding-top: 140px;
-        padding-left: 110px;
-        padding-right: 110px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .about-small-welcome {
