@@ -5,6 +5,7 @@ $font1: "Fredericka the Great", cursive;
 
 $mobile: 750px;
 $tablet-large: 1100px;
+$laptop: 1400px;
 
 @media only screen and (max-width: $mobile) {
     .home {
@@ -52,6 +53,23 @@ $tablet-large: 1100px;
         h1 {
             color: $color1;
             font-size: 3.6rem;
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop) {
+    .home {
+        width: 810px;
+        margin: 255px 0px 0px 300px;
+        font-family: $font1;
+
+        .home-inline {
+            display: inline;
+        }
+
+        h1 {
+            color: $color1;
+            font-size: 4.1rem;
         }
     }
 }
