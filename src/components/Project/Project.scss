@@ -1,0 +1,24 @@
+$color3: #ef820d;
+$color4: #00b4ab;
+
+.project-img {
+    z-index: -999;
+    border-radius: 2%;
+    border: 3px $color4 double;
+    width: 100%;
+    cursor: pointer;
+}
+
+.project-intro-cover {
+    z-index: 100;
+    width: calc(100% - 30px);
+    border-radius: 2%;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    background: #ef820d9f;
+    &:hover, &:active, &:focus {
+        border: 3px $color3 double;
+    }
+}

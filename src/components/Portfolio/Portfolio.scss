@@ -1,0 +1,37 @@
+$color1: white;
+$color2: black;
+$color3: #ef820d;
+$color4: #00b4ab;
+
+$font1: "Merriweather", serif;
+$font2: "Fredoka One", serif;
+
+$mobile: 750px;
+$larger-tablet: 1024px;
+
+@media only screen and (max-width: $mobile) {
+    #portfolio {
+        font-family: $font1;
+        background: $color1;
+        padding-top: 110px;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: $mobile) {
+    #portfolio {
+        font-family: $font1;
+        background: $color1;
+        padding-top: 130px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (min-width: $larger-tablet) {
+    #portfolio {
+        padding-top: 140px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

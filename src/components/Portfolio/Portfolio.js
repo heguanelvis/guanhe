@@ -1,9 +1,16 @@
 import React from "react";
+import "./Portfolio.scss";
+import projects from "./portfolio_img.json";
+import Project from "../Project";
 
 export default function Portfolio() {
     return (
-        <div>
-            <h1>This is the portfolio page</h1>
+        <div id="portfolio" className="container-fluid">
+            <div className="container d-flex flex-wrap align-items-center">
+                {projects.map(project => (
+                    <Project project={project} key={project.id} />
+                ))}
+            </div>
         </div>
     );
 }

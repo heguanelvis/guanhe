@@ -1,52 +1,113 @@
 [
     {
         "src": "/portfolio-img/campground.jpg",
-        "width": 1,
-        "height": 1
+        "title": "National Park Registration System",
+        "code": "",
+        "live": "",
+        "id": 1
     },
     {
         "src": "/portfolio-img/chatroom.jpg",
-        "width": 1,
-        "height": 1
+        "title": "SpeedChat",
+        "code": "https://github.com/heguanelvis/speedchat",
+        "live": "https://guan-speedchat.herokuapp.com/",
+        "id": 2
     },
     {
         "src": "/portfolio-img/clicky.jpg",
-        "width": 1,
-        "height": 1
+        "title": "Cartoon Clicky",
+        "code": "https://github.com/heguanelvis/clicky-game",
+        "live": "https://heguanelvis.github.io/clicky-game/",
+        "id": 3
     },
     {
         "src": "/portfolio-img/cps-map.jpg",
-        "width": 1,
-        "height": 1
+        "title": "Chicago Public School Map",
+        "code": "https://github.com/heguanelvis/chi_pub_school_map",
+        "live": "https://heguanelvis.github.io/chi_pub_school_map/index.html",
+        "id": 4
     },
     {
         "src": "/portfolio-img/jamspot.jpg",
-        "width": 1,
-        "height": 1
+        "title": "Jamspot",
+        "code": "https://github.com/curiouskittens/jamspot",
+        "live": "https://curiouskittens-jamspot.herokuapp.com/",
+        "id": 5
     },
     {
         "src": "/portfolio-img/newspro.jpg",
-        "width": 1,
-        "height": 1
+        "title": "Newspro",
+        "code": "https://github.com/heguanelvis/newspro",
+        "live": "https://guan-newspro.herokuapp.com/",
+        "id": 6
     },
     {
         "src": "/portfolio-img/roadsafe.jpg",
-        "width": 1,
-        "height": 1
+        "title": "RoadSafe",
+        "code": "https://github.com/heguanelvis/roadsafe",
+        "live": "https://roadsafe-a9d03.firebaseapp.com/",
+        "id": 7
     },
     {
         "src": "/portfolio-img/gis.jpg",
-        "width": 1,
-        "height": 1
+        "title": "National Solar Energy Analysis",
+        "code": "https://github.com/heguanelvis/solar",
+        "live": "https://heguanelvis.github.io/solar/",
+        "id": 8
     },
     {
         "src": "/portfolio-img/crats-static.jpg",
-        "width": 1,
-        "height": 1
+        "title": "Chicago Rats Be Gone (Static Plot Series)",
+        "code": "https://github.com/heguanelvis/Chicago-Rats-Be-Gone",
+        "live": "https://heguanelvis.github.io/Chicago-Rats-Be-Gone/explore.html",
+        "id": 9
     },
     {
         "src": "/portfolio-img/crats-interactive.jpg",
-        "width": 1,
-        "height": 1
+        "title": "Chicago Rats Be Gone (D3.js)",
+        "code": "https://github.com/data-driven-dorks/Chicago-Rats-Be-Gone-Storytelling",
+        "id": 10
+    },
+    {
+        "src": "/portfolio-img/weather.jpg",
+        "title": "Simple Weather App",
+        "code": "https://github.com/heguanelvis/basic-weather-app",
+        "live": "https://data-driven-dorks.github.io/Chicago-Rats-Be-Gone-Homepage/index.html",
+        "id": 11
+    },
+    {
+        "src": "/portfolio-img/friends.jpg",
+        "title": "Friend Match-making App",
+        "code": "https://github.com/heguanelvis/FriendFinder",
+        "live": "https://friend-finder-guanh.herokuapp.com/survey",
+        "id": 12
+    },
+    {
+        "src": "/portfolio-img/giffy.jpg",
+        "title": "Animal Giffy!",
+        "code": "https://github.com/heguanelvis/AnimalGifWeb",
+        "live": "https://heguanelvis.github.io/AnimalGifWeb/",
+        "id": 13
+    },
+    {
+        "src": "/portfolio-img/jkan.jpg",
+        "title": "Detroit City Portal (modified jkan template)",
+        "code": "https://github.com/heguanelvis/jkan",
+        "live": "https://heguanelvis.github.io/jkan/",
+        "id": 14
+    },
+    {
+        "src": "/portfolio-img/trivia.jpg",
+        "title": "China Trivia",
+        "code": "https://github.com/heguanelvis/TriviaGame",
+        "live": "https://heguanelvis.github.io/TriviaGame/",
+        "id": 15
+    },
+    {
+        "src": "/portfolio-img/vendingMachine.jpg",
+        "title": "GoldToGo Vending Machine",
+        "code": "https://github.com/heguanelvis/GoldToGoVendingMachine",
+        "live": "",
+        "id": 16
     }
 ]
