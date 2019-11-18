@@ -1,24 +1,132 @@
 $color3: #ef820d;
 $color4: #00b4ab;
 
-.project-img {
-    z-index: -999;
-    border-radius: 2%;
-    border: 3px $color4 double;
-    width: 100%;
+.project-img-wrapper {
+    padding: 0 5px;
+}
+
+.project-intro-cover h6 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.15rem;
+    padding-top: 0.4rem;
+}
+
+.project-intro-cover * {
     cursor: pointer;
 }
 
-.project-intro-cover {
-    z-index: 100;
-    width: calc(100% - 30px);
-    border-radius: 2%;
-    height: 240px;
-    position: absolute;
-    top: 0;
-    cursor: pointer;
-    background: #ef820d9f;
-    &:hover, &:active, &:focus {
-        border: 3px $color3 double;
+.project-intro-cover .btn-warning {
+    background: $color3;
+    border-color: $color3;
+    &:hover {
+        background: white;
+        color: $color3;
+        font-weight: bolder;
+    }
+}
+
+.project-intro-cover p {
+    color: white;
+    font-size: 0.95rem;
+}
+
+$mobile: 500px;
+$tablet: 767px;
+$large-tablet: 1023px;
+$small-laptop: 1200px;
+$large-laptop: 1400px;
+
+@media only screen and (max-width: $mobile) {
+    .project-img {
+        z-index: -999;
+        border-radius: 2%;
+        border: 3px $color4 double;
+        width: 100%;
+        height: 310px;
+        cursor: pointer;
+    }
+
+    .project-intro-cover {
+        z-index: 100;
+        width: calc(100% - 10px);
+        border-radius: 2%;
+        height: 310px;
+        position: absolute;
+        top: 0;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.6);
+        &:hover,
+        &:active,
+        &:focus {
+            border: 3px $color3 double;
+        }
+    }
+}
+
+@media only screen and (min-width: $mobile) {
+    .project-img {
+        z-index: -999;
+        border-radius: 2%;
+        border: 3px $color4 double;
+        width: 100%;
+        height: 290px;
+        cursor: pointer;
+    }
+
+    .project-intro-cover {
+        z-index: 100;
+        width: calc(100% - 10px);
+        border-radius: 2%;
+        height: 290px;
+        position: absolute;
+        top: 0;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.6);
+        &:hover,
+        &:active,
+        &:focus {
+            border: 3px $color3 double;
+        }
+    }
+}
+
+@media only screen and (min-width: $tablet) {
+    .project-img {
+        height: 220px;
+    }
+
+    .project-intro-cover {
+        height: 220px;
+    }
+}
+
+@media only screen and (min-width: $large-tablet) {
+    .project-img {
+        height: 210px;
+    }
+
+    .project-intro-cover {
+        height: 210px;
+    }
+}
+
+@media only screen and (min-width: $small-laptop) {
+    .project-img {
+        height: 240px;
+    }
+
+    .project-intro-cover {
+        height: 240px;
+    }
+}
+
+@media only screen and (min-width: $large-laptop) {
+    .project-img {
+        height: 300px;
+    }
+
+    .project-intro-cover {
+        height: 300px;
     }
 }

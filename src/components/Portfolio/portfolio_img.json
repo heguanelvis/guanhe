@@ -4,6 +4,7 @@
         "title": "National Park Registration System",
         "code": "",
         "live": "",
+        "description": "Command-line application built with PostgreSQL and JDBC that allows users to reserve campsites at a national park",
         "id": 1
     },
     {
@@ -11,6 +12,7 @@
         "title": "SpeedChat",
         "code": "https://github.com/heguanelvis/speedchat",
         "live": "https://guan-speedchat.herokuapp.com/",
+        "description": "A casual chat app allowing for chat rooms and instantaneous user communication using socket.io",
         "id": 2
     },
     {
@@ -18,6 +20,7 @@
         "title": "Cartoon Clicky",
         "code": "https://github.com/heguanelvis/clicky-game",
         "live": "https://heguanelvis.github.io/clicky-game/",
+        "description": "An image clicking game site built with React. Do not click the same image twice!",
         "id": 3
     },
     {
@@ -25,6 +28,7 @@
         "title": "Chicago Public School Map",
         "code": "https://github.com/heguanelvis/chi_pub_school_map",
         "live": "https://heguanelvis.github.io/chi_pub_school_map/index.html",
+        "description": "Interactive map built with Mapbox.js that allows viewers to see information regarding different Chicago public schools",
         "id": 4
     },
     {
@@ -32,6 +36,7 @@
         "title": "Jamspot",
         "code": "https://github.com/curiouskittens/jamspot",
         "live": "https://curiouskittens-jamspot.herokuapp.com/",
+        "description": "Music collaboration web app that allows musicians and vocalists to jam with each other and manage their performance",
         "id": 5
     },
     {
@@ -39,6 +44,7 @@
         "title": "Newspro",
         "code": "https://github.com/heguanelvis/newspro",
         "live": "https://guan-newspro.herokuapp.com/",
+        "description": "Scraper web app that gathers news articles from New York Times and allows users to take notes and save to database",
         "id": 6
     },
     {
@@ -46,6 +52,7 @@
         "title": "RoadSafe",
         "code": "https://github.com/heguanelvis/roadsafe",
         "live": "https://roadsafe-a9d03.firebaseapp.com/",
+        "description": "Interactive map project that helps Chicagoans to report potholes right away and find out relevant information",
         "id": 7
     },
     {
@@ -53,6 +60,7 @@
         "title": "National Solar Energy Analysis",
         "code": "https://github.com/heguanelvis/solar",
         "live": "https://heguanelvis.github.io/solar/",
+        "description": "Data visualization and analysis regarding solar energy usage in different states using ArcGIS and D3.js",
         "id": 8
     },
     {
@@ -60,12 +68,15 @@
         "title": "Chicago Rats Be Gone (Static Plot Series)",
         "code": "https://github.com/heguanelvis/Chicago-Rats-Be-Gone",
         "live": "https://heguanelvis.github.io/Chicago-Rats-Be-Gone/explore.html",
+        "description": "Static data visualization series that helps policy makers track and analyze patterns of rat complaints in Chicago",
         "id": 9
     },
     {
         "src": "/portfolio-img/crats-interactive.jpg",
         "title": "Chicago Rats Be Gone (D3.js)",
         "code": "https://github.com/data-driven-dorks/Chicago-Rats-Be-Gone-Storytelling",
+        "live": "https://data-driven-dorks.github.io/Chicago-Rats-Be-Gone-Homepage/index.html",
+        "description": "Interactive visualization series that helps policy makers track and analyze patterns of rat complaints in Chicago",
         "id": 10
     },
     {
@@ -73,6 +84,7 @@
         "title": "Simple Weather App",
         "code": "https://github.com/heguanelvis/basic-weather-app",
         "live": "https://data-driven-dorks.github.io/Chicago-Rats-Be-Gone-Homepage/index.html",
+        "description": "A simple weather report application built with DarkSky API and handlebars.js",
         "id": 11
     },
     {
@@ -80,6 +92,7 @@
         "title": "Friend Match-making App",
         "code": "https://github.com/heguanelvis/FriendFinder",
         "live": "https://friend-finder-guanh.herokuapp.com/survey",
+        "description": "A friend matchmaking app build with Node.js that allows users to submit a survey and find their best match",
         "id": 12
     },
     {
@@ -87,6 +100,7 @@
         "title": "Animal Giffy!",
         "code": "https://github.com/heguanelvis/AnimalGifWeb",
         "live": "https://heguanelvis.github.io/AnimalGifWeb/",
+        "description": "Interesting website built with the Giffy API for users to find their favorite animal giffy",
         "id": 13
     },
     {
@@ -94,6 +108,7 @@
         "title": "Detroit City Portal (modified jkan template)",
         "code": "https://github.com/heguanelvis/jkan",
         "live": "https://heguanelvis.github.io/jkan/",
+        "description": "Detroit city data portal interface built with the jkan template in Ruby",
         "id": 14
     },
     {
@@ -101,6 +116,7 @@
         "title": "China Trivia",
         "code": "https://github.com/heguanelvis/TriviaGame",
         "live": "https://heguanelvis.github.io/TriviaGame/",
+        "description": "A timed quiz built with JQuery that tests how much users know about China",
         "id": 15
     },
     {
@@ -108,6 +124,7 @@
         "title": "GoldToGo Vending Machine",
         "code": "https://github.com/heguanelvis/GoldToGoVendingMachine",
         "live": "",
+        "description": "Command-line vending machine built with Java OOP fundamentals under the TDD approach",
         "id": 16
     }
 ]
