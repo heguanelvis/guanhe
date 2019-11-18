@@ -2,8 +2,7 @@
     {
         "src": "/portfolio-img/campground.jpg",
         "title": "National Park Registration System",
-        "code": "",
-        "live": "",
+        "code": "https://github.com/heguanelvis/NationalParkRegistrationSystem",
         "description": "Command-line application built with PostgreSQL and JDBC that allows users to reserve campsites at a national park",
         "id": 1
     },
@@ -123,8 +122,36 @@
         "src": "/portfolio-img/vendingMachine.jpg",
         "title": "GoldToGo Vending Machine",
         "code": "https://github.com/heguanelvis/GoldToGoVendingMachine",
-        "live": "",
         "description": "Command-line vending machine built with Java OOP fundamentals under the TDD approach",
         "id": 16
+    },
+    {
+        "src": "/portfolio-img/npgeek.jpg",
+        "title": "National Park Geek",
+        "code": "https://github.com/heguanelvis/NationalParkGeek",
+        "live": "https://npgeek.herokuapp.com/",
+        "description": "Website built with Spring MVC and postgreSQL to help viewers find out information about national parks and vote for their favorite",
+        "id": 17
+    }, 
+    {
+        "src": "/portfolio-img/clhangman.jpg",
+        "title": "Command Line Hangman",
+        "code": "https://github.com/heguanelvis/CLI-Amazon",
+        "description": "A command line vegetable hangman game built with Node.js and Chalk.js",
+        "id": 18
+    },
+    {
+        "src": "/portfolio-img/abm.jpg",
+        "title": "Agent Based Model",
+        "code": "https://github.com/heguanelvis/agent-based-modelling",
+        "description": "Agent based model in jupyter built with Python OOP fundamentals and Pandas",
+        "id": 19
+    },
+    {
+        "src": "/portfolio-img/liri.jpg",
+        "title": "Liri Node Bot",
+        "code": "https://github.com/heguanelvis/liri-node-app",
+        "description": "A small AI tht listens to your command and gathers information from relevant API for you, built with Node.js",
+        "id": 20
     }
 ]

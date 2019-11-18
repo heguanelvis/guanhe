@@ -26,6 +26,7 @@ export default class Project extends Component {
                                 <a
                                     href={this.props.project.live}
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     className="btn btn-warning"
                                 >
                                     Live
@@ -34,6 +35,7 @@ export default class Project extends Component {
                                 <a
                                     href={this.props.project.live}
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     className="btn btn-warning disabled"
                                 >
                                     Live
@@ -44,6 +46,7 @@ export default class Project extends Component {
                                 <a
                                     href={this.props.project.code}
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     className="btn btn-warning"
                                 >
                                     Code
@@ -52,6 +55,7 @@ export default class Project extends Component {
                                 <a
                                     href={this.props.project.code}
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     className="btn btn-warning disabled"
                                 >
                                     Code
