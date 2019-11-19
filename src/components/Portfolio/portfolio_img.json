@@ -82,7 +82,7 @@
         "src": "/portfolio-img/weather.jpg",
         "title": "Simple Weather App",
         "code": "https://github.com/heguanelvis/basic-weather-app",
-        "live": "https://data-driven-dorks.github.io/Chicago-Rats-Be-Gone-Homepage/index.html",
+        "live": "https://guan-weather-app.herokuapp.com/",
         "description": "A simple weather report application built with DarkSky API and handlebars.js",
         "id": 11
     },
