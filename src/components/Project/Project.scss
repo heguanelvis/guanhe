@@ -129,4 +129,13 @@ $large-laptop: 1400px;
     .project-intro-cover {
         height: 300px;
     }
+
+    .project-intro-cover h6 {
+        padding-top: 0.9rem;
+        font-size: 1.25rem;
+    }
+
+    .project-intro-cover p {
+        font-size: 1.15rem;
+    }
 }
