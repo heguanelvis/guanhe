@@ -50,9 +50,10 @@ export default function About() {
                         In the summer of 2019, I graduated with a{" "}
                         <strong>Master of Public Policy</strong> and decided
                         that I want to further my skills and pursue a career in
-                        technology. Currently, I am a full-time{" "}
-                        <strong>Java student at Tech Elevator</strong> learning
-                        about Test Driven Development and the Spring Framework.
+                        technology. Over the past 14 weeks, I have learned about{" "}
+                        Test Driven Development and the Spring Framework at{" "}
+                        <strong>Tech Elevator Bootcamp</strong>. I will start my
+                        new coding career in February 2020.
                     </p>
                 </div>
             </div>
@@ -64,12 +65,15 @@ export default function About() {
                     <strong>data-driven web projects </strong>
                     featuring my personal interests and civic technology during
                     the past two years. I specifically enjoy using the{" "}
-                    <strong>MERN Stack</strong> to build websites and using{" "}
-                    <strong>D3.js</strong> to create interactive and mobile
-                    responsive visualizations. Recently, I have been focusing on
-                    learning Java, specifically in terms of{" "}
-                    <strong>Spring MVC and Test Driven Development</strong>. I
-                    love collaborating with my team members and I am always
+                    <strong>MERN Stack and the Spring Framework</strong> to
+                    build websites and using <strong>D3.js</strong> to create
+                    interactive and mobile responsive visualizations. Recently,
+                    I have been focusing on getting certified in using Cloud
+                    Systems such as{" "}
+                    <strong>
+                        Amazon Web Services, Azure and Google Cloud Platform
+                    </strong>
+                    . I love collaborating with my team members and I am always
                     willing to learn more and take on new challenges.{" "}
                 </p>
                 <h1 className="col-12 col-md-4">
